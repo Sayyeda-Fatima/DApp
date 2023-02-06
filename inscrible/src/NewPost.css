@@ -1,0 +1,28 @@
+.background-of-interface{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.new-post-interface{
+    display: grid;
+    align-self: center;
+    background-color: aqua;
+    padding: 10px;
+}
+
+#choose{
+    padding: 5px;
+}
+
+.image-preview{
+    width: 100%;
+    height: 100%;
+}
+
+.new-img{
+    width: 100%;
+    height: 100px;
+}
