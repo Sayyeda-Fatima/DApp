@@ -2,8 +2,7 @@
 
 
 .main-container{
-    background-color: aqua;
-    width: 100vw;
+    /* background: linear-gradient(135deg, #71b7e6, #9b59b6); */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -11,14 +10,15 @@
 
 .posts-container{  /*Make this div scrollable*/
     background-color: white;
+    border-radius: 5px;
     display: grid;
     margin: 10px;
-    padding: 10px;
     width: 40vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .single-post-container{
-    background-color: bisque;
+    padding: 10px;
 }
 
 .account-name{
